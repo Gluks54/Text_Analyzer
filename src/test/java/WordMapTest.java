@@ -1,1 +1,2 @@
-public class WordMapTest {}
+public class WordMapTest {
+}
