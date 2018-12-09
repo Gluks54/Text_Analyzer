@@ -5,6 +5,9 @@ public class WordMap {
 
     public WordMap (String text){}
 
+    public Map<String,Integer> getWordMap() {
+        return null;
+    }
 
     public int numberOfWords(){
         return 0;
