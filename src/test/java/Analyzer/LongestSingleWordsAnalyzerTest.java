@@ -1,1 +1,1 @@
-package Analyzer;public class LongestSingleWordsAnalyzerTest {}
+package Analyzer;import org.junit.Test;import static org.junit.Assert.assertArrayEquals;public class LongestSingleWordsAnalyzerTest {    @Test    public void analyzeTest(){        String test = "a bb ccc bb a";        String[] testArray = {"ccc"};        assertArrayEquals(testArray, new LongestSingleWordsAnalyzer().analyze(test));    }}
