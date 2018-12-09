@@ -1,0 +1,1 @@
+package Analyzer;public class NumberOfWordsAnalyzer implements Analyzer<Integer> {    @Override    public Integer analyze(String text) {        return null;    }}

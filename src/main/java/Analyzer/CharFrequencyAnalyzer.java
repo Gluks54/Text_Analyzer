@@ -1,0 +1,1 @@
+package Analyzer;import java.util.Map;public class CharFrequencyAnalyzer implements Analyzer<Map<Character,Double>>{    @Override    public Map<Character, Double> analyze(String text) {        return null;    }}

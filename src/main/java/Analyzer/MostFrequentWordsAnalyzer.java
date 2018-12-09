@@ -1,0 +1,1 @@
+package Analyzer;public class MostFrequentWordsAnalyzer implements Analyzer<String[]> {    @Override    public String[] analyze(String text) {        return new String[0];    }}

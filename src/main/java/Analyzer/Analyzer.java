@@ -1,0 +1,1 @@
+package Analyzer;public interface Analyzer<T> {    T analyze(String text);}

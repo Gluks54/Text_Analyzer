@@ -1,0 +1,1 @@
+public class MultiAnalizer {    public void callAnalyzers(){}}
