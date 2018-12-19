@@ -1,1 +1,1 @@
-public class MultiAnalizer {    public void callAnalyzers(){}}
+public class MultiAnalizer {    public void callAnalyzers(){    }}
