@@ -1,6 +1,6 @@
-#Text analyzer.  Java 8.
+       #Text analyzer.  Java 8.
 
-Specification
+Specification:
 Program, moze przeanalizowac tekst i podac:
  Liczbe slow.
  10 najbardziej popularnych slow.
