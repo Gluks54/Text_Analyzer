@@ -5,8 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-public class LanguageRecognition {
-    public String detectLanguage(String text) {
+public class LanguageRecognition implements Analyzer<String> {
+     @Override
+     public String analyze(String text) {
         text = text.toUpperCase();
         char[] letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
                 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
